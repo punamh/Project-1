@@ -1,0 +1,472 @@
+#nav1{
+    height:5vh;
+    background-color: rgb(212, 212, 223);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: fixed;
+   left: 0%;
+   top: 0%;
+   right: 0%;
+}
+#Do{
+    background-color: rgb(231, 227, 222);
+    height:3vh;
+    width:50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* border-left: 2px solid black; */
+    padding:5px;
+}
+#Do>h6{
+    /* border-right: 2px solid black; */
+    padding:3px;
+    /* border:2px solid; */
+}
+#contact{
+   margin-right:4%;
+}
+#nav2{
+    height: 5vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: fixed;
+   left: 0%;
+   top:5%;
+   right: 0%;
+   align-items: center;
+}
+#nav2>div{
+    height:80%;
+    text-align: center;
+    /* width:10% ; */
+    /* background-color: antiquewhite; */
+}
+#nav2>div:nth-child(1){
+    width: 10%;
+    background-color: rgb(255, 255, 255);
+  background-image: url(https://static.lenskart.com/media/desktop/img/site-images/main_logo.svg);
+  background-position: center;
+  background-size: cover;
+}
+#nav2>div:nth-child(2){
+    width: 10%;
+    background-image: url(https://static1.lenskart.com/media/desktop/img/republic/eye/new-toll-number.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 10%;
+}
+#nav2>div:nth-child(3)>input{
+ margin-left:8%;
+    height:22px;
+    padding:2px;
+    width:340%;
+    border-radius:4px;
+    /* border: 1px solid; */
+}
+.track{
+    margin-left:8%;
+}
+#select{
+    margin-left:5%;
+   
+   
+}
+.material-symbols-outlined{
+    margin-left:10%;
+   margin-right:2%;
+}
+#icons{
+    width:30%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* border: 2px solid; */
+    margin-left:30%;
+}
+#nav3{
+    height: 5vh;
+    background-color: rgb(244, 206, 206);
+    display: flex;
+    position: fixed;
+   left: 0%;
+   top:10%;
+   right: 0%;
+   align-items: center;
+   justify-content: space-between;
+   padding:6px;
+}
+#EYEGLASSES{
+    height: 100%;
+    display: flex;
+   align-items: center;
+   /* border: 2px solid; */
+   font-size: 12px;
+
+}
+#EYEGLASSES>h5{
+    margin-left:20px;
+}
+#logo-3{
+height: 100%;
+width:20% ;
+display: flex;
+justify-content:flex-end;
+}
+#logo-3>div{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(216, 136, 31);
+    margin-left:5px;
+    border-radius: 2px;
+}
+#logo-3>div:nth-child(1){
+    background-image: url(https://static1.lenskart.com/media/desktop/img/May22/3dtryon1.png);
+    background-position: center;
+    background-size: cover;
+}
+#logo-3>div:nth-child(2){
+    background-image: url(https://static1.lenskart.com/media/desktop/img/Mar22/13-Mar/blulogo.png);
+    background-position: center;
+    background-size: cover;
+}
+#logo-3>div:nth-child(3){
+    background-image: url(https://static5.lenskart.com/media/uploads/gold_max_logo_dc.png);
+    background-position: center;
+  background-size: cover;
+  margin-right:20px;
+}
+#div3{
+    height:25vh;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    margin-top:8%;
+   
+}
+#div3>div{
+    height:80%;
+    width:16%;
+    border:4px solid white;
+    background-color: rgb(254, 254, 254);
+    border-radius:8px;
+    margin: 12px;
+}
+.glass{
+  width: 100%;
+    border-radius:8px;
+    align-content: center;
+}
+#div3 h6{
+    margin-top:7px;
+    text-align: center;
+}
+#poster1 img{
+    width: 100%;
+}
+#poster2 img{
+    width: 100%;
+}
+#poster3 img{
+    width: 100%;
+}
+#container1{
+    height:40vh;
+    width:100%;
+    border: 2px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#container1>div:nth-child(1){
+    width:20%;
+    height:80%;
+    /* border: 2px solid; */
+    margin-left:8%;
+    
+}
+#container1>div:nth-child(2){
+    width:70%;
+    height:80%;
+    /* border: 2px solid; */
+    margin-left:15px;
+    margin-right:5%;
+    text-align: center;
+}
+#contant2{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#contant2>div{
+   height:100%;
+   width:15%px;
+   /* border: 2px solid; */
+   padding: 12px;
+}
+#contant2 img{
+    width: 100%;
+}
+#contant2 button{
+    padding:5px;
+    width:45%;
+    background-color: rgb(54, 221, 166);
+    border: none;
+    border-radius:4px;
+    color: white;
+    font-weight: bold;
+}
+
+.rajdhani-light {
+    font-family: "Rajdhani", sans-serif;
+    font-weight:310;
+   font-style: normal;
+   margin-bottom: -24px;
+}
+.rajdhani-light2 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight:700;
+   font-style: normal;
+   margin-bottom: -24px;
+}
+#hr1>div{
+margin-top: -18px;
+background-color: white;
+width: 15%;
+text-align: center;
+margin-left:45%;
+font-size: larger;
+
+}
+#poster4 img{
+    width: 100%;
+    margin-top:15px;
+}
+
+#hr2>div{
+margin-top: -18px;
+background-color: white;
+width:15%;
+text-align: center;
+margin-left:45%;
+font-size: larger;
+}
+#poster5 img{
+    width: 100%;
+    margin-top:15px;
+}
+#hr3>div{
+margin-top: -18px;
+background-color: white;
+width:18%;
+text-align: center;
+margin-left:45%;
+font-size: larger;
+}
+#poster6 img{
+    width: 100%;
+    margin-top:15px;
+}
+#hr4>div{
+margin-top: -17px;
+background-color: white;
+width:20%;
+text-align: center;
+margin-left:42%;
+font-size:23px;
+}
+#poster7 img{
+    width: 100%;
+    margin-top:15px;
+}
+#hr5>div{
+margin-top: -17px;
+background-color: white;
+width:42%;
+text-align: center;
+margin-left:30%;
+font-size:26px;
+}
+#hr6>div{
+margin-top:-20px;
+background-color: white;
+width:20%;
+text-align: center;
+margin-left:42%;
+font-size:26px;
+}
+#grid1{
+display: grid;
+width:80%;
+grid-template-columns: repeat(2, 1fr);
+height:130vh; 
+margin-left:10%;
+margin-top: 12px;
+gap:10px;
+grid-template-areas: 
+"a b"
+"a c"
+"d e"
+;
+
+}
+#grid1 img{
+width: 100%;
+}
+#grid1>div:nth-child(1){
+grid-area: a;
+}
+#grid1>div:nth-child(2){
+grid-area: b;
+}
+#grid1>div:nth-child(3){
+grid-area: c;
+}
+#grid1>div:nth-child(4){
+grid-area: d;
+}
+#grid1>div:nth-child(5){
+grid-area: e;
+}
+#hr7>div{
+margin-top:-24px;
+background-color: white;
+width:25%;
+text-align: center;
+margin-left:42%;
+font-size:26px;
+}
+#container2{
+    width:80%;
+    height: 20vh;
+    display: flex;
+    margin-left:10%;
+    gap:10px;
+    margin-top:20px;
+}
+#container2 img{
+    width: 100%;
+}
+#hr8>div{
+    margin-top:-15px;
+    background-color: white;
+    width:18%;
+    text-align: center;
+    margin-left:42%;
+    font-size:26px;
+    }
+
+  #grid2{
+    display: grid;
+    width:90%;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: beige;
+    margin-left:5%;
+    height:70vh;
+    gap:10px;
+    margin-top:20px;
+  }
+  #grid2>div{
+    border: 2px solid;
+  }
+  #grid2 img{
+    width: 100%;
+  }
+    #poster8 img{
+        width: 100%;
+        margin-top:15px;
+    }
+    #hr9>div{
+        margin-top:-20px;
+        background-color: white;
+        width:12%;
+        text-align: center;
+        margin-left:42%;
+        font-size:26px;
+        }
+    #eyeglass{
+        display: flex;
+        width:70%;
+        justify-content: space-between;
+        align-items: center;
+        margin-left:15%;
+        border-bottom:1px solid;
+    }    
+    #eyeglass>h6{
+        color: rgb(34, 184, 134);
+    }
+    #glass-row1{
+        width:80%;
+        border: 2px solid;
+        height: 20vh;margin-top: 12px;
+        margin-left:10%;
+        margin-top:22px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #glass-row1>div{
+        border: 2px solid;
+        height:20vh;
+        width: 30%;
+       
+    }
+    #glass-row1 img{
+        width: 80%;
+        margin-left:30px;
+    }
+    #sunglass{
+        display: flex;
+        width:70%;
+        justify-content: space-between;
+        align-items: center;
+        margin-left:15%;
+        border-bottom:1px solid;
+       
+    }    
+    #sunglass>h6{
+        color: rgb(34, 184, 134);
+    }
+    #glass-row2{
+        width:80%;
+        border: 2px solid;
+        height: 20vh;margin-top: 12px;
+        margin-left:10%;
+        margin-top:22px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #glass-row2>div{
+        border: 2px solid;
+        height:20vh;
+        width: 30%;
+    }
+    #glass-row2>div{
+        border: 2px solid;
+        height:20vh;
+        width: 30%;
+       
+    }
+    #glass-row2 img{
+        width: 80%;
+        margin-left:30px;
+    }
+    #poster9 img{
+        width: 100%;
+        margin-top:30px;
+    }
+    #poster10 img{
+        width: 100%;
+        margin-top:15px;
+    }
+    #poster11 img{
+        width: 100%;
+        margin-top:15px;
+    }
+    #poster12 img{
+        width: 100%;
+        margin-top:15px;
+    }
