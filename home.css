@@ -1,6 +1,6 @@
 #nav1{
     height:5vh;
-    background-color: rgb(212, 212, 223);
+    background-color: rgb(255, 255, 255);
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -10,26 +10,29 @@
    right: 0%;
 }
 #Do{
-    background-color: rgb(231, 227, 222);
+    background-color: rgb(255, 255, 255);
     height:3vh;
     width:50%;
     display: flex;
-    justify-content:center;
+    justify-content:space-around;
     align-items: center;
-    /* border-left: 2px solid black; */
     padding:5px;
+
 }
 #Do>h6{
-    /* border-right: 2px solid black; */
+    border-right: 2px solid black;
     padding:3px;
-    /* border:2px solid; */
+    height:8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+   font-family:sans-serif;
 }
 #contact{
    margin-right:4%;
 }
 #nav2{
     height: 5vh;
-    background-color: rgb(255, 255, 255);
+    background-color:white;
     display: flex;
     position: fixed;
    left: 0%;
@@ -45,7 +48,7 @@
 }
 #nav2>div:nth-child(1){
     width: 10%;
-    background-color: rgb(255, 255, 255);
+    background-color:white;
   background-image: url(https://static.lenskart.com/media/desktop/img/site-images/main_logo.svg);
   background-position: center;
   background-size: cover;
@@ -87,7 +90,7 @@
 }
 #nav3{
     height: 5vh;
-    background-color: rgb(244, 206, 206);
+    background-color: rgb(252, 252, 252);
     display: flex;
     position: fixed;
    left: 0%;
@@ -107,6 +110,7 @@
 }
 #EYEGLASSES>h5{
     margin-left:20px;
+    font-size: 15px;
 }
 #logo-3{
 height: 100%;
@@ -140,7 +144,7 @@ justify-content:flex-end;
 #div3{
     height:25vh;
     width: 100%;
-    background-color: antiquewhite;
+    background-color:rgb(251,249,247);
     display: flex;
     justify-content: space-between;
     margin-top:8%;
@@ -175,7 +179,7 @@ justify-content:flex-end;
 #container1{
     height:40vh;
     width:100%;
-    border: 2px solid;
+    /* border: 2px solid; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -370,9 +374,9 @@ font-size:26px;
     gap:10px;
     margin-top:20px;
   }
-  #grid2>div{
+  /* #grid2>div{
     border: 2px solid;
-  }
+  } */
   #grid2 img{
     width: 100%;
   }
@@ -387,6 +391,7 @@ font-size:26px;
         text-align: center;
         margin-left:42%;
         font-size:26px;
+
         }
     #eyeglass{
         display: flex;
@@ -394,22 +399,24 @@ font-size:26px;
         justify-content: space-between;
         align-items: center;
         margin-left:15%;
-        border-bottom:1px solid;
+        /* border-bottom:1px solid; */
+        height:25px;
+        margin-top:12px ;
     }    
     #eyeglass>h6{
         color: rgb(34, 184, 134);
     }
     #glass-row1{
-        width:80%;
-        border: 2px solid;
+        width:60%;
+        /* border: 2px solid; */
         height: 20vh;margin-top: 12px;
-        margin-left:10%;
+        margin-left:20%;
         margin-top:22px;
         display: flex;
         justify-content: space-between;
     }
     #glass-row1>div{
-        border: 2px solid;
+        /* border: 2px solid; */
         height:20vh;
         width: 30%;
        
@@ -424,31 +431,25 @@ font-size:26px;
         justify-content: space-between;
         align-items: center;
         margin-left:15%;
-        border-bottom:1px solid;
+        /* border-bottom:1px solid; */
        
     }    
     #sunglass>h6{
         color: rgb(34, 184, 134);
     }
     #glass-row2{
-        width:80%;
-        border: 2px solid;
+        width:60%;
+        /* border: 2px solid; */
         height: 20vh;margin-top: 12px;
-        margin-left:10%;
+        margin-left:20%;
         margin-top:22px;
         display: flex;
         justify-content: space-between;
     }
     #glass-row2>div{
-        border: 2px solid;
+        /* border: 2px solid; */
         height:20vh;
         width: 30%;
-    }
-    #glass-row2>div{
-        border: 2px solid;
-        height:20vh;
-        width: 30%;
-       
     }
     #glass-row2 img{
         width: 80%;
@@ -469,4 +470,104 @@ font-size:26px;
     #poster12 img{
         width: 100%;
         margin-top:15px;
+    }
+    #glass-row3{
+        width:70%;
+        /* border: 2px solid; */
+        height:18vh;
+        margin-left:20%;
+        margin-top:22px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #glass-row3>div{
+        /* border: 2px solid; */
+        height:18vh;
+        width:30%;
+    }
+    #glass-row3 img{
+        width: 80%;
+        margin-left:30px;
+    }
+    #greater{
+        margin-top:4%;
+        font-size:53px;
+        margin-left:-35px;
+    }
+    #poster13 img{
+        width: 100%;
+        margin-top:40px;
+    }
+    #container3{
+        height:55vh;
+        width:100%;
+       background-color: rgb(255,240,146);
+    }
+    #container3 h1{
+        text-align: center;
+    }
+    #video{
+        height:45vh;
+        width:100%;
+        display: flex;
+        /* border: 2px solid; */
+        justify-content: center;
+        align-items: center;
+        gap:15px;
+    }
+    #video>div{
+      height:80%;
+      width:28%;
+      background-color: blueviolet;
+    }
+    #footer{
+        height:65vh;
+        width:100;
+        background-color:rgb(0,0,66);
+        color: white;
+        padding:30px;
+    }
+    #lists{
+        display: flex;
+        /* border: 2px solid; */
+        width:30%;
+        justify-content: space-between;
+        margin-top:20px;
+        padding:12px;
+    }
+    #footer2{
+        /* border: 2px solid; */
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        font-family: sans-serif;
+    }
+    #google{
+        text-align: center;
+        margin-top:55px;
+        padding:12px;
+        font-weight:lighter;
+        
+    }
+    #footer3{
+        display:flex;
+        /* border: 2px solid; */
+        justify-content: space-between;
+        padding:12px;
+        border-top: 2px solid;
+      
+    }
+    #footer3>div{
+        /* border: 2px solid; */
+        display: flex;
+        width:25%;
+        justify-content: space-around;
+    }
+    #facebook{
+        height:20px;
+        width:20px;
+        background-color: white;
+        background-position: center;
+        background-size: cover;
+        margin-top:5%;
     }
