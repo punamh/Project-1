@@ -29,6 +29,9 @@
 #contact{
    margin-right:4%;
 }
+.Wishlist{
+  text-decoration: none;
+}
 #nav2{
     height: 5vh;
     background-color:white;
@@ -68,7 +71,7 @@
     /* border: 1px solid; */
 }
 .track{
-    margin-left:8%;
+    margin-left:5%;
 }
 #select{
     margin-left:5%;
@@ -88,28 +91,28 @@
     margin-left:30%;
 }
 #nav3{
-    height: 5vh;
-    background-color: rgb(252, 252, 252);
-    display: flex;
-    position: fixed;
-   left: 0%;
-   top:10%;
-   right: 0%;
-   align-items: center;
-   justify-content: space-between;
-   padding:6px;
+  height: 5vh;
+  background-color: rgb(252, 252, 252);
+  display: flex;
+  position: fixed;
+ left: 0%;
+ top:10%;
+ right: 0%;
+ align-items: center;
+ justify-content: space-between;
+ padding:6px;
+ font-family: sans-serif;
+ padding:10px;
 }
 #EYEGLASSES{
-    height: 100%;
-    display: flex;
-   align-items: center;
-   /* border: 2px solid; */
-   font-size: 12px;
-
+  height: 100%;
+  display: flex;
+ align-items: center;
+ /* border: 2px solid; */
 }
 #EYEGLASSES>h5{
-    margin-left:20px;
-    font-size: 15px;
+  margin-left:20px;
+  font-size: 12px;
 }
 #logo-3{
 height: 100%;
@@ -303,4 +306,68 @@ font-family:sans-serif;
 #grid5 img:hover{
    height: 500px;
    width: 500px;
+}
+#footer{
+  height:60vh;
+  width:100;
+  background-color:rgb(0,0,66);
+  color: white;
+  padding:30px;
+  font-family: sans-serif;
+  border: 18px solid rgb(0,0,66);
+}
+#p1>p{
+  font-size:14px;
+}
+#lists{
+  display: flex;
+  /* border: 2px solid; */
+  width:30%;
+  justify-content: space-between;
+  margin-top:20px;
+  padding:12px;
+}
+#lists h3{
+  font-weight: lighter;
+  font-size:20px;
+}
+#lists p{
+  font-size:14px;
+}
+#footer2{
+  /* border: 2px solid; */
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-family: sans-serif;
+}
+#google{
+  text-align: center;
+  margin-top:30px;
+  padding:12px;
+  font-weight:lighter;
+  
+}
+#footer3{
+  display:flex;
+  /* border: 2px solid; */
+  justify-content: space-between;
+  padding:12px;
+  border-top: 2px solid;
+  font-size:12px;
+
+}
+#footer3>div{
+  /* border: 2px solid; */
+  display: flex;
+  align-items: center;
+  width:25%;
+  justify-content: space-around;
+}
+#facebook{
+  height:20px;
+  width:20px;
+  background-color: white;
+  background-position: center;
+  background-size: cover;
 }
